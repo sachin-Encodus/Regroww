@@ -35,7 +35,7 @@ const navigation = () => {
       title: 'Register',
       icon: AccountPlusOutline,
       path: '/pages/register',
-      openInNewTab: true
+       openInNewTab: true
     },
     {
       title: 'Error',

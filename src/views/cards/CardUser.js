@@ -11,7 +11,7 @@ import AvatarGroup from '@mui/material/AvatarGroup'
 const CardUser = () => {
   return (
     <Card sx={{ position: 'relative' }}>
-      <CardMedia sx={{ height: '12.625rem' }} image='/images/cards/background-user.png' />
+      <CardMedia sx={{ height: '4.625rem' }} image='/images/cards/background-user.png' />
       <Avatar
         alt='Robert Meyer'
         src='/images/avatars/1.png'
@@ -19,7 +19,7 @@ const CardUser = () => {
           width: 75,
           height: 75,
           left: '1.313rem',
-          top: '10.28125rem',
+          top: '2.28125rem',
           position: 'absolute',
           border: theme => `0.25rem solid ${theme.palette.common.white}`
         }}
