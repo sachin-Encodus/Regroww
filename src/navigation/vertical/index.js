@@ -36,6 +36,7 @@ const navigation = () => {
       icon: AccountPlusOutline,
       path: '/pages/register'
       //  openInNewTab: false
+    },
     {
       title: 'Error',
       icon: AlertCircleOutline,
