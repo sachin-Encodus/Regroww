@@ -29,18 +29,18 @@ const navigation = () => {
       title: 'Login',
       icon: Login,
       path: '/pages/login',
-      openInNewTab: false
+      // openInNewTab: false
     },
     {
       title: 'Register',
       icon: AccountPlusOutline,
       path: '/pages/register',
-       openInNewTab: false
+      //  openInNewTab: false
     {
       title: 'Error',
       icon: AlertCircleOutline,
       path: '/pages/error',
-      openInNewTab: true
+      // openInNewTab: true
     },
     {
       sectionTitle: 'User Interface'
