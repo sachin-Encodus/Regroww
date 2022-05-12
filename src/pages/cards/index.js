@@ -26,15 +26,34 @@ const CardBasic = () => {
         <Typography variant='h5'>Basic Cards</Typography>
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
-        <CardImgTop />
+      <CardUser />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
         <CardUser />
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
-        <CardWithCollapse />
+      <CardUser />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid item xs={12} sm={6} md={4}>
+      <CardUser />
+      </Grid>
+      <Grid item xs={12} sm={6} md={4}>
+      <CardUser />
+      </Grid>
+      <Grid item xs={12} sm={6} md={4}>
+      <CardUser />
+      </Grid>
+      <Grid item xs={12} sm={6} md={4}>
+      <CardUser />
+      </Grid>
+      <Grid item xs={12} sm={6} md={4}>
+      <CardUser />
+      </Grid>
+      <Grid item xs={12} sm={6} md={4}>
+      <CardUser />
+      </Grid>
+
+      {/* <Grid item xs={12} sm={6}>
         <CardMobile />
       </Grid>
       <Grid item xs={12} sm={6}>
@@ -75,7 +94,7 @@ const CardBasic = () => {
       </Grid>
       <Grid item xs={12} sm={6} md={4}>
         <CardLinkedIn />
-      </Grid>
+      </Grid> */}
     </Grid>
   )
 }
